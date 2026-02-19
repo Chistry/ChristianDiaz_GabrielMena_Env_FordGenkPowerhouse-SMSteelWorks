@@ -1,0 +1,35 @@
+# --- Carpetas de Usuario y Temporales (¡IMPORTANTE!) ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+/Script/
+
+# --- Archivos de Proyecto y Soluciones (Se regeneran solos) ---
+*.sln
+*.sdf
+*.suo
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vs/
+.idea/
+.vscode/
+
+# --- Archivos de Unreal Engine ---
+# Ignora archivos de copia de seguridad y autosave
+Content/Collections/
+Content/Developers/
+*/__ExternalActors__/*
+*/__ExternalObjects__/*
+
+# --- Plugins (Opcional) ---
+# Si usas plugins que ya vienen instalados, no necesitas subirlos.
+# Si son plugins propios, quita la carpeta 'Plugins/' de aquí.
+Plugins/Binaries/
+Plugins/Intermediate/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
